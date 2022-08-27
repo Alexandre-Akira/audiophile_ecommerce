@@ -14,4 +14,10 @@ export const globalStyles = globalCss({
   "body, input, textarea, select, legend, button": {
     fontFamily: "$manrope",
   },
+  a: {
+    textDecoration: "none",
+  },
+  li: {
+    listStyle: "none",
+  },
 });
