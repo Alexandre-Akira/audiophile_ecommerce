@@ -14,10 +14,18 @@ export const globalStyles = globalCss({
   "body, input, textarea, select, legend, button": {
     fontFamily: "$manrope",
   },
+
   a: {
+    color: "inherit",
     textDecoration: "none",
+    cursor: "pointer",
   },
   li: {
     listStyle: "none",
+  },
+
+  // FONT STYLES
+  "h1, h2, h3, h4, h5, h6": {
+    textTransform: "capitalize",
   },
 });

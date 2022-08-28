@@ -22,6 +22,7 @@ export const {
       black_scale_slot1: "#000000",
       black_scale_slot2: "rgba(0, 0, 0, 0.5)",
       black_scale_slot3: "#101010",
+      black_scale_slot4: "#141414",
 
       // Gray Scale
       grey_scale_slot1: "#FFFFFF",
