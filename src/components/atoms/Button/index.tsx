@@ -1,6 +1,6 @@
 import { ButtonPropsType } from "./types";
 import { StyledButton } from "./styles";
-import { Chevron } from "public/Chevron";
+import { Chevron } from "@/assets/Chevron";
 
 const Button: ButtonPropsType = ({ children, variant, ...props }) => {
   switch (variant) {

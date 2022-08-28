@@ -1,8 +1,8 @@
 import { styled } from "@/styles/stitches.config";
 
 export const StyledButton = styled("button", {
-  width: "100%",
   paddingY: 15,
+  paddingX: 31,
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
@@ -13,21 +13,27 @@ export const StyledButton = styled("button", {
   cursor: "pointer",
 
   defaultVariants: {
-    variant: "primary",
+    variant: "orange",
   },
   variants: {
     variant: {
-      primary: {
+      orange: {
         backgroundColor: "$orange_scale_slot2",
         border: "none",
         color: "$grey_scale_slot1",
+        "&:hover": {
+          backgroundColor: "$orange_scale_slot1",
+        },
       },
-      secondary: {
+      white: {
         backgroundColor: "$grey_scale_slot1",
         borderWidth: 1,
         borderStyle: "solid",
+        "&:hover": {
+          backgroundColor: "$black_scale_slot1",
+        },
       },
-      third: {
+      transparent: {
         backgroundColor: "transparent",
         border: "none",
         color: "$black_scale_slot2",
