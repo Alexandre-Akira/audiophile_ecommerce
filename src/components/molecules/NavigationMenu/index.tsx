@@ -11,8 +11,8 @@ export const NavigationMenu: React.FunctionComponent<NavigationMenuType> = ({
         {links.map((link, index) => {
           return (
             <StyledMenuItem key={index}>
-              <Link href={link.path}>
-                <a>{link.description}</a>
+              <Link href={link.path} shallow={true}>
+                {link.description}
               </Link>
             </StyledMenuItem>
           );
