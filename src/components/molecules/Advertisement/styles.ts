@@ -22,5 +22,5 @@ export const StyledBodyText = styled(BodyText, {
 });
 
 export const StyledPictureContainer = styled("div", {
-  opacity: 0.6,
+  opacity: 0.4,
 });
