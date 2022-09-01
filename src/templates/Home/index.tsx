@@ -1,15 +1,15 @@
-import * as React from "react";
-import { HomeHeader } from "@/components/organisms/headers/HomeHeader";
-import { StyledHeaderContainer } from "./styles";
+import * as React from 'react'
+import { Header } from '@/components/organisms/headers/Header'
+import { StyledHeaderContainer } from './styles'
 
 export const HomeTemplate: React.FunctionComponent = () => {
   return (
     <>
       <StyledHeaderContainer>
-        <HomeHeader />
+        <Header />
       </StyledHeaderContainer>
       <main> main </main>
       <footer> footer </footer>
     </>
-  );
-};
+  )
+}
